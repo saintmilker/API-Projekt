@@ -19,7 +19,7 @@ Funktionen loadMovies(searchTerm) ansvarar för att hämta filmer från OMDB API
 
 ### Visning av listan med filmer:
 
-Funktionen displayMovieList(movies) tar emot en lista med filmer och genererar HTML-kod för varje film. Det skapar en ny <div> för varje film och fyller den med filminformation, inklusive bild, titel och år. Därefter läggs varje film till i searchList-elementet på sidan.
+Funktionen displayMovieList(movies) tar emot en lista med filmer och genererar HTML-kod för varje film. Det skapar en ny div för varje film och fyller den med filminformation, inklusive bild, titel och år. Därefter läggs varje film till i searchList-elementet på sidan.
 
 ### Laddning av filmdetaljer:
 
