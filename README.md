@@ -15,7 +15,7 @@ Genom att kombinera teknikerna för att hämta data från OMDBs API, presentera 
 
 ### Hantering av sökning och laddning av filmer:
 
-Funktionen loadMovies(searchTerm) ansvarar för att hämta filmer från OMDB API genom att bygga en URL med söktermen och API-nyckeln. Den använder fetch för att göra en asynkron HTTP-begäran och får tillbaka data i JSON-format. Om svaret är "True" anropas funktionen displayMovieList för att visa listan med filmer.
+Funktionen ```loadMovies(searchTerm)``` ansvarar för att hämta filmer från OMDB API genom att bygga en URL med söktermen och API-nyckeln. Den använder fetch för att göra en asynkron HTTP-begäran och får tillbaka data i JSON-format. Om svaret är "True" anropas funktionen displayMovieList för att visa listan med filmer.
 
 ### Visning av listan med filmer:
 
